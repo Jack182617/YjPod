@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0435661620F5D894003ACCD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435661520F5D894003ACCD7 /* AppDelegate.swift */; };
+		0435661820F5D894003ACCD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435661720F5D894003ACCD7 /* ViewController.swift */; };
+		0435661B20F5D894003ACCD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0435661920F5D894003ACCD7 /* Main.storyboard */; };
+		0435661D20F5D895003ACCD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0435661C20F5D895003ACCD7 /* Assets.xcassets */; };
+		0435662020F5D895003ACCD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0435661E20F5D895003ACCD7 /* LaunchScreen.storyboard */; };
+		0435662B20F5D895003ACCD7 /* YjPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435662A20F5D895003ACCD7 /* YjPodTests.swift */; };
+		0435663620F5D895003ACCD7 /* YjPodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435663520F5D895003ACCD7 /* YjPodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0435662720F5D895003ACCD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0435660A20F5D894003ACCD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0435661120F5D894003ACCD7;
+			remoteInfo = YjPod;
+		};
+		0435663220F5D895003ACCD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0435660A20F5D894003ACCD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0435661120F5D894003ACCD7;
+			remoteInfo = YjPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0435661220F5D894003ACCD7 /* YjPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YjPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0435661520F5D894003ACCD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0435661720F5D894003ACCD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0435661A20F5D894003ACCD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0435661C20F5D895003ACCD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0435661F20F5D895003ACCD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0435662120F5D895003ACCD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0435662620F5D895003ACCD7 /* YjPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YjPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0435662A20F5D895003ACCD7 /* YjPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YjPodTests.swift; sourceTree = "<group>"; };
+		0435662C20F5D895003ACCD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0435663120F5D895003ACCD7 /* YjPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YjPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0435663520F5D895003ACCD7 /* YjPodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YjPodUITests.swift; sourceTree = "<group>"; };
+		0435663720F5D895003ACCD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0435660F20F5D894003ACCD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0435662320F5D895003ACCD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0435662E20F5D895003ACCD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0435660920F5D894003ACCD7 = {
+			isa = PBXGroup;
+			children = (
+				0435661420F5D894003ACCD7 /* YjPod */,
+				0435662920F5D895003ACCD7 /* YjPodTests */,
+				0435663420F5D895003ACCD7 /* YjPodUITests */,
+				0435661320F5D894003ACCD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0435661320F5D894003ACCD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0435661220F5D894003ACCD7 /* YjPod.app */,
+				0435662620F5D895003ACCD7 /* YjPodTests.xctest */,
+				0435663120F5D895003ACCD7 /* YjPodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0435661420F5D894003ACCD7 /* YjPod */ = {
+			isa = PBXGroup;
+			children = (
+				0435661520F5D894003ACCD7 /* AppDelegate.swift */,
+				0435661720F5D894003ACCD7 /* ViewController.swift */,
+				0435661920F5D894003ACCD7 /* Main.storyboard */,
+				0435661C20F5D895003ACCD7 /* Assets.xcassets */,
+				0435661E20F5D895003ACCD7 /* LaunchScreen.storyboard */,
+				0435662120F5D895003ACCD7 /* Info.plist */,
+			);
+			path = YjPod;
+			sourceTree = "<group>";
+		};
+		0435662920F5D895003ACCD7 /* YjPodTests */ = {
+			isa = PBXGroup;
+			children = (
+				0435662A20F5D895003ACCD7 /* YjPodTests.swift */,
+				0435662C20F5D895003ACCD7 /* Info.plist */,
+			);
+			path = YjPodTests;
+			sourceTree = "<group>";
+		};
+		0435663420F5D895003ACCD7 /* YjPodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0435663520F5D895003ACCD7 /* YjPodUITests.swift */,
+				0435663720F5D895003ACCD7 /* Info.plist */,
+			);
+			path = YjPodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0435661120F5D894003ACCD7 /* YjPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0435663A20F5D895003ACCD7 /* Build configuration list for PBXNativeTarget "YjPod" */;
+			buildPhases = (
+				0435660E20F5D894003ACCD7 /* Sources */,
+				0435660F20F5D894003ACCD7 /* Frameworks */,
+				0435661020F5D894003ACCD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YjPod;
+			productName = YjPod;
+			productReference = 0435661220F5D894003ACCD7 /* YjPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0435662520F5D895003ACCD7 /* YjPodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0435663D20F5D895003ACCD7 /* Build configuration list for PBXNativeTarget "YjPodTests" */;
+			buildPhases = (
+				0435662220F5D895003ACCD7 /* Sources */,
+				0435662320F5D895003ACCD7 /* Frameworks */,
+				0435662420F5D895003ACCD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0435662820F5D895003ACCD7 /* PBXTargetDependency */,
+			);
+			name = YjPodTests;
+			productName = YjPodTests;
+			productReference = 0435662620F5D895003ACCD7 /* YjPodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0435663020F5D895003ACCD7 /* YjPodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0435664020F5D895003ACCD7 /* Build configuration list for PBXNativeTarget "YjPodUITests" */;
+			buildPhases = (
+				0435662D20F5D895003ACCD7 /* Sources */,
+				0435662E20F5D895003ACCD7 /* Frameworks */,
+				0435662F20F5D895003ACCD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0435663320F5D895003ACCD7 /* PBXTargetDependency */,
+			);
+			name = YjPodUITests;
+			productName = YjPodUITests;
+			productReference = 0435663120F5D895003ACCD7 /* YjPodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0435660A20F5D894003ACCD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Yj;
+				TargetAttributes = {
+					0435661120F5D894003ACCD7 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					0435662520F5D895003ACCD7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0435661120F5D894003ACCD7;
+					};
+					0435663020F5D895003ACCD7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0435661120F5D894003ACCD7;
+					};
+				};
+			};
+			buildConfigurationList = 0435660D20F5D894003ACCD7 /* Build configuration list for PBXProject "YjPod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0435660920F5D894003ACCD7;
+			productRefGroup = 0435661320F5D894003ACCD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0435661120F5D894003ACCD7 /* YjPod */,
+				0435662520F5D895003ACCD7 /* YjPodTests */,
+				0435663020F5D895003ACCD7 /* YjPodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0435661020F5D894003ACCD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0435662020F5D895003ACCD7 /* LaunchScreen.storyboard in Resources */,
+				0435661D20F5D895003ACCD7 /* Assets.xcassets in Resources */,
+				0435661B20F5D894003ACCD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0435662420F5D895003ACCD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0435662F20F5D895003ACCD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0435660E20F5D894003ACCD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0435661820F5D894003ACCD7 /* ViewController.swift in Sources */,
+				0435661620F5D894003ACCD7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0435662220F5D895003ACCD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0435662B20F5D895003ACCD7 /* YjPodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0435662D20F5D895003ACCD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0435663620F5D895003ACCD7 /* YjPodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0435662820F5D895003ACCD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0435661120F5D894003ACCD7 /* YjPod */;
+			targetProxy = 0435662720F5D895003ACCD7 /* PBXContainerItemProxy */;
+		};
+		0435663320F5D895003ACCD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0435661120F5D894003ACCD7 /* YjPod */;
+			targetProxy = 0435663220F5D895003ACCD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0435661920F5D894003ACCD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0435661A20F5D894003ACCD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0435661E20F5D895003ACCD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0435661F20F5D895003ACCD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0435663820F5D895003ACCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0435663920F5D895003ACCD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0435663B20F5D895003ACCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33L3L2F8ZA;
+				INFOPLIST_FILE = YjPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yj.YjPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0435663C20F5D895003ACCD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33L3L2F8ZA;
+				INFOPLIST_FILE = YjPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yj.YjPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0435663E20F5D895003ACCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33L3L2F8ZA;
+				INFOPLIST_FILE = YjPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yj.YjPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YjPod.app/YjPod";
+			};
+			name = Debug;
+		};
+		0435663F20F5D895003ACCD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33L3L2F8ZA;
+				INFOPLIST_FILE = YjPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yj.YjPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YjPod.app/YjPod";
+			};
+			name = Release;
+		};
+		0435664120F5D895003ACCD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33L3L2F8ZA;
+				INFOPLIST_FILE = YjPodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yj.YjPodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YjPod;
+			};
+			name = Debug;
+		};
+		0435664220F5D895003ACCD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33L3L2F8ZA;
+				INFOPLIST_FILE = YjPodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yj.YjPodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YjPod;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0435660D20F5D894003ACCD7 /* Build configuration list for PBXProject "YjPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0435663820F5D895003ACCD7 /* Debug */,
+				0435663920F5D895003ACCD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0435663A20F5D895003ACCD7 /* Build configuration list for PBXNativeTarget "YjPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0435663B20F5D895003ACCD7 /* Debug */,
+				0435663C20F5D895003ACCD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0435663D20F5D895003ACCD7 /* Build configuration list for PBXNativeTarget "YjPodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0435663E20F5D895003ACCD7 /* Debug */,
+				0435663F20F5D895003ACCD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0435664020F5D895003ACCD7 /* Build configuration list for PBXNativeTarget "YjPodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0435664120F5D895003ACCD7 /* Debug */,
+				0435664220F5D895003ACCD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0435660A20F5D894003ACCD7 /* Project object */;
+}
